@@ -12,6 +12,7 @@ module.exports = () => {
     entry: {
       main: "./src/js/index.js",
       install: "./src/js/install.js",
+      editor: "./src/js/editor.js"
     },
     output: {
       filename: "[name].bundle.js",
@@ -60,8 +61,10 @@ module.exports = () => {
           exclude: /node_modules/,
           use: {
             loader: 'babel-loader',
-            options: ['@babel/preset-env'],
+            options:{ 
+            presets: ['@babel/preset-env'],
             plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/plugin-transform-runtime']
+          }
           }
         }
       ],
