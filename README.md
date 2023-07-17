@@ -34,9 +34,9 @@ Access the application in Heroku: [J.A.T.E](https://limitless-waters-60886-03cf0
 
 [https://limitless-waters-60886-03cf0891762e.herokuapp.com/](https://limitless-waters-60886-03cf0891762e.herokuapp.com/)
 
-![screenShot](./asset/1.png)
-![screenShot](./asset/2.png)
-![screenShot](./asset/3.png)
+![screenShot](./assets/1.png)
+![screenShot](./assets/2.png)
+![screenShot](./assets/3.png)
 
 
 
